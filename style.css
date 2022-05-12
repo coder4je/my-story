@@ -26,8 +26,8 @@ h1 {
 
 #days {
   position: relative;
-  border-color: red;
   border:  none;
+  background-color:#000; 
 }
 
 input[type=text] {
@@ -90,3 +90,20 @@ input:checked + .sider::before
   transform: translateX(50px);
 }
 
+.contactMe {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.contactMe__icons a{
+  position: relative; 
+  display: inline;
+  float: left;
+  margin: 15px;
+  font-size: 20px;
+  list-style: none;
+  color: #000;
+  display: flex;
+  padding: none;
+}
